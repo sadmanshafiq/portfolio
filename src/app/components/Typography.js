@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const Heading = styled.h1`
   margin-top: 0;
   margin-bottom: 0;
-  font-size: 36px;
+  font-size: 26px;
   font-weight: bold;
 
   @media (min-width: 480px) {
@@ -25,7 +25,7 @@ export const Heading = styled.h1`
 export const Subheading = styled.h2`
   margin-top: 0;
   margin-bottom: 0;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: bold;
 
   @media (min-width: 480px) {

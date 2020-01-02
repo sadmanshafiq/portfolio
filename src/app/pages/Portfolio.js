@@ -87,6 +87,7 @@ const PortfolioItem = styled.a`
 const PortfolioItemThumbnail = styled.img`
   max-width: 100%;
   object-fit: contain;
+  border-radius: 20px;
 `
 
 export default class Portfolio extends React.Component {
