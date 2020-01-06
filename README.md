@@ -13,10 +13,8 @@ License
 MIT
 
 Follow Me - 
-[Portfolio](http://chetanverma.com/)
-[Behance](https://www.behance.net/chetanverma)
-[Dribbble](https://dribbble.com/chetanverma)
-[Instagram](https://www.instagram.com/cv.uidesign/)
+[Portfolio](http://sadmanshafiq.com/)
+[Behance](https://www.behance.net/sadmanshafiq)
 
 
 
