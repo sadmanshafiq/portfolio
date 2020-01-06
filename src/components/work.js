@@ -202,7 +202,7 @@ class Work extends Component {
               <Card onClick={this.flipCard.bind(this)}>
                 <CardFront>
                   <div class="img-wrapper">
-                    <img class="inner-img" src="/bom.png" alt="" width="600px" />
+                    <img class="inner-img" src="./bom.png" alt="" width="600px" />
                   </div>
                   <CardNumber>Software Developer @ BOM</CardNumber>
                   
@@ -217,7 +217,7 @@ class Work extends Component {
               <Card onClick={this.flipCard.bind(this)}>
                 <CardFront>
                 <div class="img-wrapper">
-                    <img class="inner-img" src="/varcp.png" alt="" width="600px" />
+                    <img class="inner-img" src="./varcp.png" alt="" width="600px" />
                   </div>
                   <CardNumber>Lead Developer @ VACRP</CardNumber>
                 </CardFront>
@@ -230,7 +230,7 @@ class Work extends Component {
               <Card onClick={this.flipCard.bind(this)}>
                 <CardFront>
                 <div class="img-wrapper">
-                    <img class="inner-img" src="/h3.jpg" alt=""  width="600px" />
+                    <img class="inner-img" src="./h3.jpg" alt=""  width="600px" />
                   </div>
                   <CardNumber>UN Habitat III Delegate @ Global Voices</CardNumber>
                 </CardFront>
