@@ -11,35 +11,64 @@ const HeaderDiv = styled.div`
   flex-direction: column;
   align-items: center;
   color: black;
-  top:4em;
+  top: 4em;
 `
 
-const HeadingBackground = styled.h1`
-  position: fixed;
-  opacity: 0.05;
-  font-size: calc(18em + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
-  line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
-  z-index: 100;
-  color:#9352ae;
-`
 const HeaderMain = styled.header`
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-
   h1 {
+    font-family: 'Open Sans', sans-serif;
     font-size: calc(1em + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
-    font-weight: 400;  
-    padding: 1em;
-    margin-right: calc(20em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
+    font-weight: 600;  
+    padding: 0.5em;
+    margin-right: 20em;
+    width: 80%;
   }
 `
 
-const HeadiBackground = styled.h1`
+const HeaderTitle = styled.div`
+  position: relative;
+  margin: 4em;
+
+  button{
+    background: black;
+    border: 0px;
+    padding: 1em 3em;
+    transition: all 0.2s ease-out;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    margin: 5em;
+    width: 20%;
+  }
+  
+  button:hover{
+    opacity: 0.8;
+  }
+  
+  button a{
+    font-family: 'Open Sans', sans-serif;
+    color:white;
+    text-decoration: none;
+  }
 `
 
-const HeangBackground = styled.h1`
+const TopHead = styled.p`
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: calc(3em + (26 - 14) * ((100vw - 300px) / (1600 - 300)));;
+  text-align: left;
+  margin: auto;
+  width: 100%;
+`
+const SubHead = styled.p`
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  color: #404040;
+  font-size: calc(2em + (26 - 14) * ((100vw - 300px) / (1600 - 300)));;
+  text-align: left;
+  margin: auto;
+  width: 100%;
 `
 
 class Header extends Component {
@@ -49,18 +78,20 @@ class Header extends Component {
     render() {
         return (
         <HeaderDiv>
-        <HeadingBackground>DEVELOPER</HeadingBackground>
-            <HeaderMain>
-                <h1>
-                    <Fade bottom cascade>{data.tag}</Fade></h1>
-            </HeaderMain>
+          <HeaderMain>
+            <h1><Fade bottom cascade>{data.tag}</Fade></h1>
+          </HeaderMain>
             <Fade bottom>
-            <p className='header-title'>
-            {data.headerTagline[0]}<br></br>{data.headerTagline[1]}<br></br>
-            {data.headerTagline[2]}
-               <br></br>
-                    <button><a href={`mailto:${data.contactEmail}`} rel="noopener noreferrer" >Contact</a></button>
-                </p>
+            <HeaderTitle>
+              <TopHead>
+                {data.headerTagline[0]}<br/>
+              </TopHead>
+              <SubHead>
+                {data.headerTagline[1]}<br/>
+                {data.headerTagline[2]}<br/>
+              </SubHead>
+              <button><a href={`mailto:${data.contactEmail}`} rel="noopener noreferrer" >Contact</a></button>
+            </HeaderTitle>
             </Fade>
 
 
