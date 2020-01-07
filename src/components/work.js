@@ -157,6 +157,8 @@ const CardFront = styled.div`
   }
   
   .inner-img {
+    text-align: center;
+    display: block;
     transition: 0.3s;
     
   }
@@ -236,20 +238,23 @@ class Work extends Component {
                 </CardFront>
 
                 <CardBack>
-                  <CardDescription>Location: Quito, Ecuador<br />Duration: 2016<br />Scope: United Nations Habitat III, Housing Discussion, Architecture<br />Stack: Research Paper, Report Generation<br /> Wrote a Research Paper and travelled to the conference to discuss potential solutions to the problems arising from growing population and immigration crises.<a href="https://globalvoices.org.au/s/Sadman-Shafiq-Habitat-III-Policy-Paper-copy.pdf">Paper Here</a></CardDescription>
+                  <CardDescription>Location: Quito, Ecuador<br />Duration: 2016<br />Scope: United Nations Habitat III, Housing Discussion, Architecture<br />Stack: Research Paper, Report Generation<br /> Wrote a Research Paper and travelled to the conference to discuss potential solutions to the problems arising from growing population and immigration crises. <a href="https://globalvoices.org.au/s/Sadman-Shafiq-Habitat-III-Policy-Paper-copy.pdf">Paper Here</a></CardDescription>
                 </CardBack>
               </Card>
 
-              {/* <Card onClick={this.flipCard.bind(this)}>
+              <Card onClick={this.flipCard.bind(this)}>
                 <CardFront>
-                  <CardNumber>Director @ Indie Film Project</CardNumber>
+                <div class="img-wrapper">
+                    <img class="inner-img" src="./Physics.jpg" alt=""  width="500px" />
+                  </div>
+                  <CardNumber>Treasurer @ Swinburne Physics Club</CardNumber>
 
                 </CardFront>
 
                 <CardBack>
-                  <CardDescription>Produced a  <a href="https://vimeo.com/142484733">Video Here</a></CardDescription>
+                  <CardDescription>Location: Hawthorn, Melbourne<br />Duration: 2017-2019<br />Scope: Swinburne Clubs, Physics Events, Student Co-ordination<br />Stack: Excel, Grant Request Generation<br /> Created a media set for club branding as well as handled finances for the club. Helped organize and run student run Physics Career Night to introduce student to future career options. <a href="https://www.behance.net/gallery/90211667/Physics-Club-Logo">Logo Here</a></CardDescription>
                 </CardBack>
-              </Card> */}
+              </Card>
           </GridRow>
           </Fade>
         </GridContainer>
