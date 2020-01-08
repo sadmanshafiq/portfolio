@@ -34,13 +34,13 @@ function App() {
       <Navbar/>
       <Header/>
       <div className='About'>
-        <About></About>
+        <About/>
       </div>
       <div className='Work'>
-        <Work></Work>
+        <Work/>
       </div>
       <div className='Contact'>
-        <Contact></Contact>
+        <Contact/>
       </div>
     </div>
   );
