@@ -1,6 +1,6 @@
 # Portfolio
 
-This repo contains a personal portfolio that was created with React. It is lightweight and fully responsive, as well as comes with animations
+This repo contains a personal portfolio that was created with Next.js Strapi and Tailwindcss. It is lightweight and fully responsive, as well as comes with animations
 
 License
 MIT
