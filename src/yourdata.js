@@ -12,7 +12,7 @@ export default
         //Contact Email
         contactEmail:'sadman.shafiq@protonmail.com',
         abouttext: "Hello I am a software engineer based in Melbourne. I enjoy designing and building user experiences. My work so far has been in divergent ventures, each of them bringing in new ideas and experiences to shape the products I make. I grew up in Melbourne and Dhaka and I love Films, Soccer and D&D.",
-        aboutImage:'https://images.unsplash.com/photo-1578033392392-8a817a7df6cc?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
+        aboutImage:'/bom.png',
        //Change This To Hide The Image of About Section (True Or False)
        ShowAboutImage:true,
         social: [
